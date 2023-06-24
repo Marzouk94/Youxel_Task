@@ -1,4 +1,4 @@
-package basics;
+package tests;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -6,6 +6,10 @@ import java.util.concurrent.TimeUnit;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import pages.HomePage;
+import pages.LoginPage;
+import pages.RegistrationPage;
+
 import java.time.Duration;
 
 
